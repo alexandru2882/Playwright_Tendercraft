@@ -1,0 +1,27 @@
+{
+  "name": "playwright_tendercraft",
+  "version": "1.0.0",
+  "description": "Automation framework for TenderCraft",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "PWDEBUG=1 playwright test",
+    "codegen": "playwright codegen"
+  },
+  "keywords": [
+    "playwright",
+    "tendercraft",
+    "automation"
+  ],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.55.1",
+    "@types/node": "^24.6.2",
+    "dotenv": "^17.2.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
